@@ -34,13 +34,17 @@ transfer-learning-inception-network/
   pip install -r requirements.txt
   ```
 
-## Training the Model
+## Training and Inference of the Model
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/transfer-learning-inception-network.git
    cd transfer-learning-inception-network
    ```
-2. Run the training script:
+2. Run the Jupyter notebook for training:
+   ```bash
+   jupyter notebook notebooks/transfer_learning_on_inception.ipynb
+   ```
+3. Run the inference script:
    ```bash
    python testNetwork.py
    ```
